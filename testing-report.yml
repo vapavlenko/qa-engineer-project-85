@@ -1,7 +1,7 @@
 ---
 - summary: |
     Регистрация пользователя через GitHub
-  status: fail
+  status: pass
 
 - summary: |
     Проверка входа пользователя с несуществующими логином и паролем
@@ -21,7 +21,7 @@
 
 - summary: |
     Авторизация через GitHub
-  status: fail
+  status: pass
 
 - summary: |
     Создание игры с игроком
@@ -29,7 +29,7 @@
 
 - summary: |
     Создание игры с другом (по приглашению)
-  status: pass
+  status: fail
 
 - summary: |
     Возможность выйти из игры, и зайти обратно, сохранив написанный код
@@ -41,7 +41,7 @@
 
 - summary: |
     Возможность сдаться в матче
-  status: fail
+  status: pass
 
 - summary: |
     Смена языка программирования во время игры
@@ -61,7 +61,7 @@
 
 - summary: |
     Тестирование мобильной версии сайта на IPhone 15 Pro (iOS 18.6)
-  status: fail
+  status: pass
 
 - summary: |
     Тестирование мобильной версии сайта на Samsung Galaxy S20
@@ -89,7 +89,7 @@
 
 - summary: |
     Раздел "Show Guide" во время матча
-  status: pass
+  status: fail
 
 - summary: |
     Авторизация через Discord
