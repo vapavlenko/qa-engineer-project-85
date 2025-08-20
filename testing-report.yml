@@ -90,3 +90,7 @@
 - summary: |
     Раздел "Show Guide" во время матча
   status: pass
+
+- summary: |
+    Авторизация через Discord
+  status: pass
