@@ -1,8 +1,92 @@
 ---
 - summary: |
-    Краткое описание тест-кейса. Пример: Проверка входа пользователя с существующими логином и паролем
+    Регистрация пользователя через GitHub
   status: fail
 
 - summary: |
-    Краткое описание тест-кейса. Пример: Проверка входа пользователя с существующими логином и паролем
+    Проверка входа пользователя с несуществующими логином и паролем
+  status: pass
+
+- summary: |
+    Создание игры с ботом
+  status: pass
+
+- summary: |
+    Регистрация через почту и пароль
+  status: pass
+
+- summary: |
+    Авторизация через почту и пароль
+  status: pass
+
+- summary: |
+    Авторизация через GitHub
+  status: fail
+
+- summary: |
+    Создание игры с игроком
+  status: pass
+
+- summary: |
+    Создание игры с другом (по приглашению)
+  status: pass
+
+- summary: |
+    Возможность выйти из игры, и зайти обратно, сохранив написанный код
+  status: pass
+
+- summary: |
+    Смена языка задания
+  status: pass
+
+- summary: |
+    Возможность сдаться в матче
+  status: fail
+
+- summary: |
+    Смена языка программирования во время игры
+  status: pass
+
+- summary: |
+    Отправка сообщений в чат (общий)
+  status: pass
+
+- summary: |
+    Отправка сообщений в чат (с противником)
+  status: pass
+
+- summary: |
+    Проверка написанного кода (кнопка Check)
+  status: pass
+
+- summary: |
+    Тестирование мобильной версии сайта на IPhone 15 Pro (iOS 18.6)
+  status: fail
+
+- summary: |
+    Тестирование мобильной версии сайта на Samsung Galaxy S20
+  status: pass
+
+- summary: |
+    Тестирование совместимости c браузером Google Chrome
+  status: pass
+
+- summary: |
+    Тестирование совместимости с браузером Mozila Firefox
+  status: pass
+
+- summary: |
+    Тестирование совместимости с браузером Safari
+  status: pass
+
+- summary: |
+    Просмотр истории матчей
+  status: pass
+
+- summary: |
+    Отображение редактора противника
+  status: pass
+
+- summary: |
+    Раздел "Show Guide" во время матча
   status: pass
