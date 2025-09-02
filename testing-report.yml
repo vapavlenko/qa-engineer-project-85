@@ -12,27 +12,71 @@
   status: pass
 
 - summary: |
-    Регистрация через почту и пароль
+    Регистрация пользователя через email
   status: pass
 
 - summary: |
-    Авторизация через почту и пароль
+    Проверка невозможности регистрации с уже существующей почтой
   status: pass
 
 - summary: |
-    Авторизация через GitHub
+    Проверка невозможности регистрации с некорректной почтой
   status: pass
 
 - summary: |
-    Создание игры с игроком
+    Успешная авторизация через email и пароль
   status: pass
 
 - summary: |
-    Создание игры с другом (по приглашению)
+    Успешная авторизация через Discord
+  status: pass
+
+- summary: |
+    Создание игры с другим игроком (публичная игра)
+  status: pass
+
+- summary: |
+    Создание игры с таймером
+  status: pass
+
+- summary: |
+    Отправка приглашения другу
   status: fail
 
 - summary: |
-    Возможность выйти из игры, и зайти обратно, сохранив написанный код
+    Подключение второго игрока к публичной игре
+  status: pass
+
+- summary: |
+    Отображение редакторов игроков
+  status: pass
+
+- summary: |
+    Работа чата во время игры
+  status: pass
+
+- summary: |
+    Проверка решения кнопкой "check"
+  status: pass
+
+- summary: |
+    Сохранение кода при повторном входе
+  status: pass
+
+- summary: |
+    Победа игрока
+  status: pass
+
+- summary: |
+    Поражение игрока
+  status: pass
+
+- summary: |
+    Выход победителя из игры
+  status: pass
+
+- summary: |
+    Возможность доиграть после поражения
   status: pass
 
 - summary: |
@@ -40,43 +84,7 @@
   status: pass
 
 - summary: |
-    Возможность сдаться в матче
-  status: pass
-
-- summary: |
-    Смена языка программирования во время игры
-  status: pass
-
-- summary: |
-    Отправка сообщений в чат (общий)
-  status: pass
-
-- summary: |
-    Отправка сообщений в чат (с противником)
-  status: pass
-
-- summary: |
-    Проверка написанного кода (кнопка Check)
-  status: pass
-
-- summary: |
-    Тестирование мобильной версии сайта на IPhone 15 Pro (iOS 18.6)
-  status: pass
-
-- summary: |
-    Тестирование мобильной версии сайта на Samsung Galaxy S20
-  status: pass
-
-- summary: |
-    Тестирование совместимости c браузером Google Chrome
-  status: pass
-
-- summary: |
-    Тестирование совместимости с браузером Mozila Firefox
-  status: pass
-
-- summary: |
-    Тестирование совместимости с браузером Safari
+    Смена языка программирования
   status: pass
 
 - summary: |
@@ -84,13 +92,25 @@
   status: pass
 
 - summary: |
-    Отображение редактора противника
+    Тестирование мобильной версии
   status: pass
 
 - summary: |
-    Раздел "Show Guide" во время матча
-  status: fail
+    Тестирование совместимости с Google Chrome
+  status: pass
 
 - summary: |
-    Авторизация через Discord
+    Тестирование совместимости с Mozilla Firefox
+  status: pass
+
+- summary: |
+    Тестирование совместимости с Safari
+  status: pass
+
+- summary: |
+    Тестирование совместимости с Microsoft Edge
+  status: pass
+
+- summary: |
+    Тестирование совместимости с Opera
   status: pass
